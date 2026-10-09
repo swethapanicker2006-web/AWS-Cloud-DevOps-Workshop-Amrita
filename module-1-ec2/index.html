@@ -1,46 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Resume</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swetha S Panicker | Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<header>
-			<h1>Yeshwanth L M</h1>
-			<p>Cloud Solutions Engineer/Architect</p>
-		</header>
-		<section>
-			<h2>Summary</h2>
-			<p>Experienced Cloud Engineer specializing in designing, implementing, and managing scalable cloud infrastructure on AWS, Azure, and Google Cloud. Proficient in deploying and optimizing cloud resources, automating infrastructure with tools like Terraform and CloudFormation, and ensuring high availability, security, and cost efficiency. Skilled in monitoring system performance, troubleshooting complex issues, and applying cloud best practices to meet business objectives. Strong background in managing cloud-native applications, containerization, and continuous integration/continuous deployment (CI/CD) pipelines.</p>
-		</section>
-		<section>
-			<h2>Skills</h2>
-			<ul>
-				<li>AWS</li>
-				<li>Azure</li>
-				<li>CICD</li>
-				<li>Google Cloud</li>
-				<li>Bootstrap</li>
-				<li>React</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Experience</h2>
-			<h3>Cloud Engineer, XYZ</h3>
-			<p>Developed and maintained multiple company websites using HTML, CSS, and JavaScript. Collaborated with designers and project managers to create visually appealing and user-friendly interfaces. Conducted regular code reviews to ensure high-quality and efficient code.</p>
-			<h3>Web Developer, ABC Agency</h3>
-			<p>Designed and implemented custom WordPress themes and plugins. Worked closely with clients to gather requirements and provide technical support. Conducted regular testing and debugging to ensure optimal performance.</p>
-		</section>
-		<section>
-			<h2>Education</h2>
-			<h3>Bachelor of Science in Computer Science</h3>
-			<p>University of ABC, Graduated May 20XX</p>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<p>Some text about your projects...</p>
-		</section>
-	</div>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">My Resume</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Swetha S Panicker</span></h1>
+            <h2>Integrated MCA Student | 3rd Year</h2>
+            <p>
+                A computer applications student passionate about
+                learning new technologies, solving problems and
+                building useful projects.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    I am currently pursuing my third year of the
+                    Integrated Master of Computer Applications (MCA)
+                    programme at Amrita Vishwa Vidyapeetham,
+                    Mysuru Campus.
+                </p>
+                <p>
+                    I am interested in developing my technical
+                    knowledge, exploring software technologies,
+                    and gaining practical experience through
+                    academic projects and workshops. I am eager
+                    to learn, improve my skills and collaborate
+                    with others.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <span class="tag">Currently Pursuing</span>
+                <h3>Integrated Master of Computer Applications</h3>
+                <p class="institution">Amrita Vishwa Vidyapeetham</p>
+                <p>Mysuru Campus, Karnataka</p>
+                <p>Third Year</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Python, Programming Fundamentals</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database</h3>
+                    <p>SQL, Database Fundamentals</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, Linux</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Cloud Computing</h3>
+                    <p>Cloud Fundamentals, AWS Workshop</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+                    <p>Deep Learning and Model Fundamentals</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Academic Projects</h2>
+
+            <div class="project-grid">
+                <div class="card project-card">
+                    <span class="tag">Machine Learning</span>
+                    <h3>Sign Language Recognition</h3>
+                    <p>
+                        An academic project exploring sign language
+                        recognition from video using deep learning
+                        techniques. The project uses hand and body
+                        landmark features and BiLSTM models to
+                        classify signs.
+                    </p>
+                    <p class="tech">
+                        Technologies: Python, BiLSTM, MediaPipe
+                    </p>
+                </div>
+
+                <div class="card project-card">
+                    <span class="tag">Web Development</span>
+                    <h3>Personal Resume Website</h3>
+                    <p>
+                        A personal resume website developed to present
+                        my education, skills, academic projects and
+                        contact information in a clean, responsive
+                        layout.
+                    </p>
+                    <p class="tech">Technologies: HTML, CSS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="workshops" class="section">
+            <h2 class="section-title">Workshops & Activities</h2>
+            <div class="card">
+                <h3>Cloud Computing Workshop</h3>
+                <p>
+                    Participated in a two-day cloud computing
+                    workshop to learn about cloud technologies
+                    and related concepts.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Strengths</h2>
+            <div class="strengths">
+                <span>Quick Learner</span>
+                <span>Problem Solving</span>
+                <span>Teamwork</span>
+                <span>Adaptability</span>
+                <span>Creative Thinking</span>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="card contact-card">
+                <p><strong>Name:</strong> Swetha S Panicker</p>
+                <p><strong>Email:</strong>
+                    <a href="mailto:your-email@example.com">
+                        your-email@example.com
+                    </a>
+                </p>
+                <p><strong>Location:</strong> Kerala, India</p>
+                <p><strong>GitHub:</strong>
+                    <a href="https://github.com/YOUR-USERNAME">
+                        My GitHub Profile
+                    </a>
+                </p>
+                <p><strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/">
+                        My LinkedIn Profile
+                    </a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Swetha S Panicker. All rights reserved.</p>
+        <p>Designed with HTML and CSS.</p>
+    </footer>
+
 </body>
 </html>
